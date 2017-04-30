@@ -1,0 +1,13 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "standard",
+        "promise"
+    ],
+
+    "rules": {
+      "semi": 0,
+      "keyword-spacing": 0,
+      "space-before-function-paren": 0
+    }
+}
