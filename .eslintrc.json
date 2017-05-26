@@ -6,7 +6,7 @@
     ],
 
     "rules": {
-      "semi": "error",
+      "semi": "always",
       "keyword-spacing": ["error", {
          "overrides": {
            "if": { "after": false },
