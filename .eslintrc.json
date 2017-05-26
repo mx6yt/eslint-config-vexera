@@ -6,8 +6,16 @@
     ],
 
     "rules": {
-      "semi": 0,
-      "keyword-spacing": 0,
-      "space-before-function-paren": 0
+      "semi": "error",
+      "keyword-spacing": ["error", {
+         "overrides": {
+           "if": { "after": false },
+             "for": { "after": false },
+              "while": { "after": false },
+              "catch": { "after": false },
+              "switch": { "after": false }
+          }
+      }],
+      "space-before-function-paren": ["error", "never"]
     }
 }
